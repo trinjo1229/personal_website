@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+.container{
+    height: 100vh; /*vh means the viewport height 100 makes it 100*/
+    width: 100%;
+    background-image: url(images/resume_background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+/*above is a class that we are creating to style the background of our website*/
