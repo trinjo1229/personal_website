@@ -1,17 +1,16 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
-.container{
-    height: 100vh; /*vh means the viewport height 100 makes it 100*/
-    width: 100%;
-    background-image: url(images/resume_background.jpg);
-    background-position: center;
+/*padding allows for a space to be applied around elements's contents*/
+
+.background{
+    background-image: url(resume_background.png);
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-    position: relative;
+    background-repeat: no-repeat;
+    height:100vh;/*means that it will take up 100% of the height of the current viewport*/
 }
 /*above is a class that we are creating to style the background of our website*/
+/*cover lets the browser know that the image should take up the entire container*/
+/*repeat prevents the image from repeating if too big to fit on screen*/
