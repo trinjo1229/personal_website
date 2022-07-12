@@ -50,6 +50,10 @@ nav ul li a{
     font-size: medium;
 }
 
+.contact-section{
+    padding-bottom:5%;
+}
+
 .animated-me{
     height:75%;
     position: absolute;
@@ -74,4 +78,12 @@ nav ul li a{
     font-size: 150px;
     margin-top: 1%;
     margin-left: 10%;
+}
+
+.profile_picture{
+    position: relative;
+}
+
+.profile_picture img{
+    border-radius:80px;
 }
