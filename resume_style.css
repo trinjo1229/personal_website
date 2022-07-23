@@ -90,7 +90,7 @@ nav ul li a{
 
 #about_page img{
     height:70%;
-    width:auto;
+    width:auto; /* auto calculates the height based on the browser size*/
     margin-left:3%;
     margin-top:3%;
     border-left: 3px solid rgb(255, 255, 255);
@@ -109,12 +109,13 @@ nav ul li a{
 
 .about_text_box h1 {
     color:aliceblue;
+
 }
 
 .about_text_box li{
     color:aliceblue;
     margin-bottom:1%;
     width:95%;
-    word-wrap: break-word;
+    word-wrap: break-word; /*this and the previous line prevents the text from running off the text box*/
 }
 
