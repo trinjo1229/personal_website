@@ -83,24 +83,28 @@ nav ul li a{
 #about_page{
     position: center;
     display:flex;
-    padding-left:5%;
-    padding-top:5%;
-    height: 70%;
+    justify-content: space-between;
+    height: 80%;
+    width: 96%;
 }
 
 #about_page img{
-    height:75%;
-    width:28%;
+    height:70%;
+    width:auto;
+    margin-left:3%;
+    margin-top:3%;
     border-left: 3px solid rgb(255, 255, 255);
     border-top: 3px solid rgb(255, 255, 255);
     border-radius:30px; 
 }
 
 .about_text_box{
-    margin-left:3%;
     width:67%;
+    height: 100%;
     background-color:rgba(253, 253, 253, 0.1);
     border-radius:30px; 
+    margin-left:3%;
+    
 }
 
 .about_text_box h1 {
@@ -110,5 +114,7 @@ nav ul li a{
 .about_text_box li{
     color:aliceblue;
     margin-bottom:1%;
+    width:95%;
+    word-wrap: break-word;
 }
 
