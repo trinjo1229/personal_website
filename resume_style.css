@@ -6,7 +6,7 @@
 /*padding allows for a space to be applied around elements's contents*/
 
 .background{
-    background-image: url(resume_background.png);
+    background-image: url(Images/resume_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;/*means that it will take up 100% of the height of the current viewport*/
@@ -119,3 +119,23 @@ nav ul li a{
     word-wrap: break-word; /*this and the previous line prevents the text from running off the text box*/
 }
 
+/*project main*/
+#project_grid{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction: rows;
+    margin-top:230px;
+    justify-content: space-between; /*to avoid the pictures taking up the entire screen you'll need to resize them as you see here*/
+}
+
+
+
+.grid_photos{
+    height:auto;
+    width:30%; 
+    cursor:pointer;
+}
+
+.grid_photos:hover{
+    flex-grow:1;
+}
