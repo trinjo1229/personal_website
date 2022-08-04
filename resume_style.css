@@ -50,8 +50,8 @@ nav ul li a{
     font-size: medium;
 }
 
-.contact-section{
-    padding-bottom:5%;
+nav ul li a:hover{
+    color:#73FA07;
 }
 
 .animated-me{
@@ -124,7 +124,7 @@ nav ul li a{
     display:flex;
     flex-wrap:nowrap;
     flex-direction: rows;
-    margin-top:230px;
+    margin-top:220px;
     justify-content: space-between; /*to avoid the pictures taking up the entire screen you'll need to resize them as you see here*/
 }
 
@@ -139,3 +139,42 @@ nav ul li a{
 .grid_photos:hover{
     flex-grow:1;
 }
+
+#resume_display{
+    height: 84%;
+}
+
+#resume_display img{
+    position: relative; /*stays in a fixed postion unless told otherwise*/
+    left: 33%;
+    height: auto;
+    width: 35%;
+    border: 2px solid #73FA07;
+}
+
+#download_button{
+    position: relative;
+    left: 3%;
+    top: 5%;
+    width: 25%;
+    height:6%;
+    background-color:#73FA07;
+    border:1px solid black;
+    cursor:pointer;
+    transition:all 2s;
+}
+
+#download_button:hover{
+    left:2%;
+    width: 27%;
+    background-color: black;
+    color:#73FA07;
+    border:1px solid #73FA07;
+}
+
+#download_button a{
+    text-decoration: none;
+    color:black
+}
+
+
