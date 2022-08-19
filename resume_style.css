@@ -207,9 +207,22 @@ nav ul li a:hover{
     word-wrap: break-word; /*this and the previous line prevents the text from running off the text box*/
 }
 
-.project_text_box img{
+#pomodoro_photo{
     margin-left:45%;
     height:30%;
+    width:auto;
+}
+
+#resume_photo{
+    margin-left:55%;
+    height:45%;
+    width:auto;
+}
+
+#fuel_cell_photo{
+    margin-top: 1%;
+    margin-left:64%;
+    height:50%;
     width:auto;
 }
 
