@@ -121,23 +121,20 @@ nav ul li a:hover{
 
 /*project main*/
 #project_grid{
+    width: 95%;
+    height:80%;
     display:flex;
     flex-wrap:nowrap;
     flex-direction: rows;
-    margin-top:220px;
+    margin-left:3%;
     justify-content: space-between; /*to avoid the pictures taking up the entire screen you'll need to resize them as you see here*/
 }
 
-
-
 .grid_photos{
-    height:auto;
-    width:30%; 
+    height:37%;
+    width:auto; 
+    margin-top: 40%;
     cursor:pointer;
-}
-
-.grid_photos:hover{
-    flex-grow:1;
 }
 
 #resume_display{
@@ -174,8 +171,32 @@ nav ul li a:hover{
 
 #download_button a{
     text-decoration: none;
-    color:black
+    color:black;
 }
 
+.project_text_box{
+    width:94%;
+    height: 80%;
+    background-color:rgba(253, 253, 253, 0.1);
+    margin-left:3%;
+}
 
+.project_text_box h1{
+    color:#73FA07;
+    text-decoration: underline;
+    margin-bottom:1%;
+}
 
+.project_text_box h2{
+    color:aliceblue;
+}
+
+.project_text_box ul{
+    color:aliceblue;
+    margin-bottom:1%;
+}
+
+.project_text_box a{
+    text-decoration: none;
+    color:aliceblue;
+}
