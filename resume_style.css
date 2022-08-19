@@ -176,7 +176,7 @@ nav ul li a:hover{
 
 .project_text_box{
     width:94%;
-    height: 80%;
+    height: 84%;
     background-color:rgba(253, 253, 253, 0.1);
     margin-left:3%;
 }
@@ -197,6 +197,34 @@ nav ul li a:hover{
 }
 
 .project_text_box a{
-    text-decoration: none;
     color:aliceblue;
+}
+
+.project_text_box li{
+    color:aliceblue;
+    margin-bottom:1%;
+    width:95%;
+    word-wrap: break-word; /*this and the previous line prevents the text from running off the text box*/
+}
+
+.project_text_box img{
+    margin-left:45%;
+    height:30%;
+    width:auto;
+}
+
+#contact_box{
+    display:flex;
+    width:95%;
+    height:80%;
+    margin-left:2%;
+    flex-wrap: nowrap;
+    flex-direction:rows;
+    justify-content:space-evenly;
+}
+
+#contact_box img{
+    height:54%;
+    width:auto;
+    margin-top:40%; 
 }
